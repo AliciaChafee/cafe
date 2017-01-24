@@ -1,0 +1,29 @@
+/* style menu page */
+
+body {
+	text-align: center;
+	background: url('../img/coffee.jpg');
+}
+
+h1  {
+	font-family: "Homemade Apple", cursive;
+	font-size: 150%;
+}
+
+.wrapper {
+	background-color: rgba(255, 239, 196, 0.7);
+	width: 1000px;
+	margin: 0 auto;
+	border-radius: 20px;
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+
+p {
+	font-weight: bold;
+}
+
+#menu {
+	text-decoration: underline;
+	font-size: 250%;
+}
