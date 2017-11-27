@@ -1,7 +1,7 @@
 # cafe
-responsive two page practice portfolio project using html and css
+responsive site built with bootstrap
 
-http://www.cafesalutem.aliciachafee.com/
+https://aliciachafee.github.io/cafe/
 
-![cafe](https://cloud.githubusercontent.com/assets/20173602/22444805/7d3b6d34-e712-11e6-849b-a534af7e994f.jpg)
+
 
