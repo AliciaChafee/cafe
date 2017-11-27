@@ -1,99 +1,87 @@
+
 body {
-	background-color: #fff;
-	font-size: 150%;
+
+	font-family: 'Karla', sans-serif;
 
 }
 
+header {
+	text-align: center;
+	background-image: url("../img/hero.jpg");
+	background-size: cover;
+	min-height: 100vh;
 
-#hero {
-	height: 550px;
-	width: 100%;
-	background-image: url('../img/image2.jpg');
-	background-repeat: no-repeat;
-	
-	background-size: 100%;
-}
-
-.wrapper {
-	background-color: #666;
-	width: 1200px;
-	margin: 0 auto;
-	
 
 }
 
-ul.topnav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    
-   
-
+nav .navbar-nav > .nav-item > .nav-link {
+	text-transform: uppercase;
+	font-family: 'Karla', sans-serif;
+	letter-spacing: .25em;
+	color: #fff;
 }
 
-ul.topnav li {
-	float: right;
+nav .navbar-nav > .nav-item > .nav-link:hover {
+	color: #F7D6A7;
 }
 
-ul.topnav li a {
-    display: inline-block;
-    color: #fff;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    transition: 0.3s;
-    font-size: 17px;
+nav .navbar-nav > .nav-item {
+	padding: 10px;
 }
 
-ul.topnav li a:hover {
-	background-color: #333;
+a span {
+	color: #fff;
+	font-size: 1.5em;
 }
 
-
+.collapse {
+	padding-top: 10px;
+}
 
 section {
 	text-align: center;
 }
 
-
-content {
-	padding: 30px;
+.about-header {
+	padding-bottom: 20px;
 }
 
-#about {
-	padding: 30px;
+.about {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	color: #473E30;
 }
 
-h1 {
-	font-family: 'Homemade Apple', cursive;
+.pics {
+	margin-bottom: 15px;
+	margin-top: 15px;
 }
+
+.images {
+	margin-bottom: 100px;
+}
+
+footer .headline {
+	text-transform: uppercase;
+}
+
+footer a {
+	color: #fff;
+}
+
+footer a:hover {
+	color: #29231B;
+}
+
 
 footer {
+
+	font-family: 'Karla', sans-serif;
 	text-align: center;
-	font-size: 80%;
-	padding: 20px;
+	color: #fff;
+	padding: 50px;
+	background-color: #8A775D;
+	letter-spacing: .2em
 }
 
-@media (max-width: 960px) {
-	.wrapper {
-		width: auto;
-	}
-	.hero {
-  	max-width: 100%;
 
-  }
-
-}
-
-@viewport {
-	zoom: 1.0;
-	width: extend-to-zoom;
-
-  }
-@-ms-viewport {
-	zoom: 1.0;
-	width: extend-to-zoom;
-	
-  }
